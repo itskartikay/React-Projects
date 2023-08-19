@@ -1,0 +1,26 @@
+body{
+    
+    background-color: antiquewhite;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+    padding: 0% 5% 5%;
+    background-color: aquamarine;
+}
+
+ol{
+    list-style: none;
+}
