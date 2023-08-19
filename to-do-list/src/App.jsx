@@ -19,10 +19,20 @@ const clicked = () =>{
   })
 
   setEle("")
+  }
 
-  // event.preventDefault();
-  // setNewEle(ele)
-}
+  const deleteItems = (id) => {
+    console.log("clicked")
+
+    setNewEle((oldItem)=>{
+      return oldItem.filter( (arrEle, index) => {
+
+        return index!==id;
+
+      })
+    })
+  }
+ 
 
   return (
     <>
@@ -40,9 +50,12 @@ const clicked = () =>{
           <ol>
             {/* <li>{newEle}</li> */}
 
-            {newEle.map((item)=>{
+            {newEle.map((item,index)=>{
               return <List
                 itemVal={item}
+                key={index}
+                id={index}
+                onSelect={deleteItems}
               />
             })}
 
