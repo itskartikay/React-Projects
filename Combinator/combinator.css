@@ -1,0 +1,9 @@
+.Centre {
+    justify-content: center;
+  }
+  .Bg {
+    background-color: blue;
+  }
+  .Disp {
+    display: flex;
+  }
