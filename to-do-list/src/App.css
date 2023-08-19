@@ -22,5 +22,21 @@ body{
 }
 
 ol{
+    padding-left: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
     list-style: none;
+    align-items: center;
+}
+
+li{
+    align-items: center;
+    text-align: center;
+    margin: 0% 5%;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
 }

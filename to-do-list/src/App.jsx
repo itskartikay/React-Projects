@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css"
+import List from "./List";
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const clicked = () =>{
     return [...oldItem, ele]
   })
 
+  setEle("")
+
   // event.preventDefault();
   // setNewEle(ele)
 }
@@ -27,20 +30,24 @@ const clicked = () =>{
 
         <h1> To Do List</h1>
         <br/>
-        <input type="text" placeholder="Add Items" onChange={inputEvent}/>
+        <input type="text" placeholder="Add Items" onChange={inputEvent} value={ele}/>
         <br/>
         <button onClick={clicked}>+</button>
 
 
         <br/>
-        <ol>
-          {/* <li>{newEle}</li> */}
+          <div className="list-items">
+          <ol>
+            {/* <li>{newEle}</li> */}
 
-          {newEle.map((item)=>{
-            return <li>{item}</li>
-          })}
+            {newEle.map((item)=>{
+              return <List
+                itemVal={item}
+              />
+            })}
 
-        </ol>
+          </ol>
+        </div>
 
       </div>
 
