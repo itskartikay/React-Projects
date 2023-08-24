@@ -3,6 +3,7 @@ import axios from 'axios';
 import Dropdown from './components/Dropdown';
 import PokemonInfo from './components/PokemonInfo';
 import "./CSS/App.css"
+import "./CSS/App2.css"
 
 const App = () => {
 
