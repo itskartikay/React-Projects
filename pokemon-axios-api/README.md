@@ -24,7 +24,7 @@ Welcome to the Pokémon Selector! This project is a fun and engaging web applica
 
 - React: Front-end JavaScript library for building user interfaces.
 - Axios: HTTP client for making API requests.
-- [Insert any other technologies or libraries used]
+- Figma: UI design tool to create a responsive UI.
 
 ## Credits
 
