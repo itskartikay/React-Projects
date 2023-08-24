@@ -31,14 +31,6 @@ Welcome to the Pokémon Selector! This project is a fun and engaging web applica
 - Pokémon data sourced from the [PokéAPI](https://pokeapi.co/).
 - GIFs sourced from the [Giphy API](https://developers.giphy.com/).
 
-## Screenshots
-
-[Insert additional screenshots if needed]
-
-## License
-
-[Choose an appropriate license for your project]
-
 ---
 
 Enjoy your journey into the world of Pokémon! Gotta catch 'em all!
