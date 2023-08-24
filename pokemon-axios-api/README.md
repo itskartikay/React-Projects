@@ -1,7 +1,4 @@
 # Pokémon Selector
-![Pokemon](public/favicon.ico)
-
-Preview
 
 ![Home Page](preview.png)
 
