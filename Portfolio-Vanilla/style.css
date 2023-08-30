@@ -28,6 +28,14 @@ a,
 
 /* DESKTOP NAV */
 
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 nav,
 .nav-links {
   display: flex;
@@ -176,6 +184,10 @@ section {
   margin: auto 0;
 }
 
+.profile-pic {
+  border-radius: 50%;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -287,11 +299,7 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
+
 
 .details-container {
   padding: 1.5rem;
@@ -314,10 +322,11 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* SKILLS SECTION */
 
-#experience {
+#skills {
   position: relative;
+  height: auto;
 }
 
 .experience-sub-title {
@@ -351,33 +360,6 @@ article {
 
 article .icon {
   cursor: default;
-}
-
-/* PROJECTS SECTION */
-
-#projects {
-  position: relative;
-}
-
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
-}
-
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
-}
-
-.project-title {
-  margin: 1rem;
-  color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
 }
 
 /* CONTACT */
@@ -429,4 +411,13 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+/* Dark Mode */
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: white;
 }
