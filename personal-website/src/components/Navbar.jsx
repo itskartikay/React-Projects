@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const linkStyle = {
     textDecoration: 'none',
-    fontSize: '1.5rem',
+    fontSize: '1.75rem',
     color: '#fff',
   };
 
