@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
+    height: 70vh;
+    width: auto;
 }
 
 .profile-photo{
@@ -28,8 +30,3 @@
     margin: 1rem;
 }
 
-.name{
-    background: linear-gradient(to right,#B16CEA, #FF5E69, #FF8A56, #FFA84B);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}

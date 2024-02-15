@@ -4,6 +4,7 @@ import "./components/CSS/fonts.css";
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
 
 
 const App = () => {
@@ -11,8 +12,9 @@ const App = () => {
     <>
       <Navbar/>
       <Hero/>
+      <About/>
     </>
   )
 }
 
-export default App
+export default App;

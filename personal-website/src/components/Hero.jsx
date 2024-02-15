@@ -12,8 +12,8 @@ const Hero = () => {
             </div>
 
             <div className='hero-text'>
-                <h1 className='hero-text-inside font1'>Hello, I'm <span className='name'>Kartikay Sharma</span></h1>
-                <h2 className='hero-text-inside font2'>Web Developer from India</h2>
+                <h1 className='hero-text-inside font1'>Hello, I'm <span className='gradient'>Kartikay Sharma,</span></h1>
+                <h2 className='hero-text-inside font2'>Full Stack Web Developer, UI/UX Developer</h2>
             </div>
         </div>
     </>

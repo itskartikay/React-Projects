@@ -2,3 +2,9 @@ body{
     margin: 0 0;
     background-color: #161513;
 }
+
+.gradient{
+    background: linear-gradient(to right,#B16CEA, #FF5E69, #FF8A56, #FFA84B);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
