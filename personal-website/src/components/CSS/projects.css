@@ -1,0 +1,22 @@
+.projects-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: auto;
+
+    margin-bottom: 6.25%;
+
+    scroll-snap-align: center;
+}
+
+.projects-heading{
+    margin: 0rem 0rem 4rem 0rem;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+}
+
