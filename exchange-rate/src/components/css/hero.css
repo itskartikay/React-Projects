@@ -1,0 +1,11 @@
+.outer-shell{
+    width: 46rem;
+    height: 42rem;
+
+    border-radius: 3.125rem;
+    background: rgba(73, 81, 89, 0.59);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

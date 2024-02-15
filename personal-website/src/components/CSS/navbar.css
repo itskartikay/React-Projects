@@ -1,0 +1,15 @@
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}

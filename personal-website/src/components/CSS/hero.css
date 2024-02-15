@@ -1,0 +1,35 @@
+.hero-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    border-radius: 50% ;
+    height: auto;
+    width: 20rem;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.hero-text-inside {
+    margin: 1rem;
+}
+
+.name{
+    background: linear-gradient(to right,#B16CEA, #FF5E69, #FF8A56, #FFA84B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
