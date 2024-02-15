@@ -14,3 +14,7 @@ body{
     /* scroll-snap-type: y proximity; */
     scroll-padding-top: 20%;
 }
+
+html{
+    scroll-behavior: smooth;
+}

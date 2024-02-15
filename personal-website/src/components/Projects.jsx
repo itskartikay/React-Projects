@@ -9,7 +9,7 @@ import "./CSS/projects.css"
 const Projects = () => {
   return (
     <>
-      <div className='projects-main'>
+      <div className='projects-main' id='projects'>
         
         <h1 className='font2 projects-heading gradient'>
           Projects

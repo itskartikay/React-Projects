@@ -25,7 +25,7 @@ const Skills = () => {
 
   return (
     <>
-        <div className='skills-main'>
+        <div className='skills-main' id='skills'>
             
             <h1 className='font2 projects-heading gradient'>
                 Skills

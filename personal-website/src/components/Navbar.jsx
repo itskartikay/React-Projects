@@ -1,5 +1,7 @@
-import React, {useState} from 'react'
-import "./CSS/navbar.css"
+import React, {useState} from 'react';
+import {Link} from 'react-scroll';
+
+import "./CSS/navbar.css";
 
 const Navbar = () => {
 
@@ -18,10 +20,22 @@ const Navbar = () => {
     <>
         <div className={color ? "nav nav-bg" : "nav"}>
           <ul className='nav-list'>
-              <li className='font3'>About</li>
-              <li className='font3'>Projects</li>
-              <li className='font3'>Skills</li>
-              <li className='font3'>Contact</li>
+              <li className='font3'>
+                <Link to='about' smooth={true} duration={10}>
+                  About
+                </Link></li>
+              <li className='font3'>
+                <Link to='projects' smooth={true} duration={10}>
+                  Projects
+                </Link></li>
+              <li className='font3'>
+                <Link to='skills' smooth={true} duration={10}>
+                  Skills
+                </Link></li>
+              <li className='font3'>
+                <Link to='contact'smooth={true} duration={10} >
+                  Contact
+                </Link></li>
           </ul>
         </div>
     </>
