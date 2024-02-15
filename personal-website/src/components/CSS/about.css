@@ -3,8 +3,13 @@
     align-items: center;
     justify-content: center;
 
-    height: 100vh;
+    height: 100%;
     width: auto;
+
+    margin-top: 6.25%;
+    margin-bottom: 6.25%;
+
+    scroll-snap-align: start;
 }
 
 .about-container{

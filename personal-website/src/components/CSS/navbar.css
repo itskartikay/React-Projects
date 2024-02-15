@@ -1,5 +1,12 @@
 .nav{
-    height: 15vh;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    
+    position: sticky;
+    top: 0;
+
+    background: linear-gradient(180deg, #1C1C22 0%, rgba(22, 21, 19, 0.00) 100%);
 }
 
 .nav-list{
@@ -8,12 +15,11 @@
     padding: 0;
 
     display: flex;
-    justify-content: flex-end;
 }
 
 li{
     display: flex;
     flex-direction: row;
     padding-right: 5rem;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
 }

@@ -8,3 +8,8 @@ body{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+*{
+    /* scroll-snap-type: y mandatory; */
+    scroll-padding-top: 20%;
+}
