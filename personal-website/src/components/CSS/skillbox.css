@@ -1,21 +1,35 @@
-.project-card{
+.skillsbox-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    height: auto;
-    width: 50rem;
+    margin: 0rem 15rem;
+}
 
+.skills-img{
+    height: 7.5rem;
+    width: auto;
+}
+
+.skills-card{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-    padding: 0rem 5rem 1rem 5rem;
-    margin: 4rem 2rem;
+    width: 20rem;
+    height: 20rem;
+
     background-color: #1C1C22;
     position: relative;  
     border-radius: 2rem;
+    justify-content: center;
 
-    align-items: center;
+    margin: 2rem 4rem 4rem 2rem;
 }
 
-.project-card:before {
+
+.skills-card:before {
     content: "";
     z-index: -1;
     position: absolute;
@@ -24,13 +38,13 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(to right,#B16CEA, #FF5E69, #FF8A56, #FFA84B);
-    transform: translate3d(0px, 0px, 0) scale(1.0);
-    filter: blur(22px);
+    transform: translate3d(0px, 0px, 0) scale(1);
+    filter: blur(10px);
     opacity: var(0.54);
     transition: opacity 0.3s;
     border-radius: inherit;
 }
-.project-card::after {
+.skills-card::after {
     content: "";
     z-index: -1;
     position: absolute;
@@ -42,17 +56,6 @@
     border-radius: inherit;
 }
 
-.font3{
-    margin: 0;
-}
-.link{
-    margin: 0;
-    cursor: pointer;
-}
-
-.img{
-    height: auto;
-    width: 100%;
-    border-radius: 2rem;
-    margin-top: 2rem;
+.skills-title{
+    margin-top: 2.5rem;
 }

@@ -19,6 +19,7 @@ const Projects = () => {
             image={pokemon}
             title="Pokemon Selector"
             link="pokemon-selector-gamma.vercel.app"
+            github="github.com/itskartikay/Pokemon-Selector"
             content={[
               "• Developed an interactive web application 'Pokemon Selector' using React, Figma, and Axios.",<br/>,
               "• Implemented multiple API calls with Axios to retrieve comprehensive Pokémon data and GIFs from Giphy API.",<br/>,
@@ -29,6 +30,7 @@ const Projects = () => {
             image={pain}
             title="PainSpeak – Universal Pain Translator"
             link="painspeak.vercel.app"
+            github="github.com/itskartikay/PainSpeak"
             content={[
               "• Created 'PainSpeak' to serve as a universal pain translator, allowing patients to effectively communicate their pain to paramedics, transcending language and cultural barriers.",<br/>,
               "• Developed a custom local API to efficiently retrieve and manage the necessary data.",<br/>,

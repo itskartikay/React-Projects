@@ -37,3 +37,14 @@
     margin: 1rem;
 }
 
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 12.5rem;
+    height: 4rem;
+    border-radius: 3.75rem;
+    border: 5px solid #1C1C22;
+    margin-top: 1rem;
+}

@@ -14,7 +14,6 @@ const Navbar = () => {
   }
 
   window.addEventListener('scroll', scrolling)
-
   return (
     <>
         <div className={color ? "nav nav-bg" : "nav"}>
@@ -29,4 +28,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

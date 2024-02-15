@@ -2,11 +2,7 @@ import React from 'react';
 
 import "./CSS/box.css"
 
-const Box = (props) => {
-    const handleClick = () => {
-      window.location.href=props.link;
-    }
-    
+const Box = (props) => {    
     return (
     <>
         <div className='project-card'>
@@ -18,8 +14,16 @@ const Box = (props) => {
             </h2>
 
             <h3 className="font5 link">
-                <a href="https://`{props.link}`">
-                    {props.link}
+                Deployed Project -
+                <a href={"https://"+props.link} target="_blank">
+                    {" "+props.link}
+                </a>
+            </h3>
+
+            <h3 className="font5 link">
+                GitHub Repository -
+                <a href={"https://"+props.link} target="_blank">
+                    {" "+props.github}
                 </a>
             </h3>
 
@@ -32,4 +36,4 @@ const Box = (props) => {
   )
 }
 
-export default Box
+export default Box;
